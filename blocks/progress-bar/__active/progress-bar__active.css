@@ -1,0 +1,6 @@
+.progress-bar__active{
+    height: 100%;
+    width: 0%;
+    background:  url(../../../images/progress-bg.jpg);
+    border-radius: 0.5rem;
+}

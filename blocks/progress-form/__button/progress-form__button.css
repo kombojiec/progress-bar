@@ -1,0 +1,18 @@
+.progress-form__button{
+    outline: none;
+    border: none;
+    border-radius: 0.1rem;
+    font-size: 1rem;
+}
+
+.progress-form__button:hover{
+    outline: none;
+    border: none;
+    box-shadow: 0 0 2px 2px rgb(238, 91, 91) ;
+}
+
+.progress-form__button:active{
+    outline: none;
+    border: none;
+    box-shadow: 0 0 2px 2px  #fff;
+}

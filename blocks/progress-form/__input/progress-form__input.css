@@ -1,0 +1,15 @@
+.progress-form__input{
+    text-align: center;
+    width: 5rem;
+    margin-right: 1rem;
+    border-radius: 0.1rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.progress-form__input:focus{
+    outline: none;
+    border: none;
+    box-shadow: 0 0 2px 2px rgb(238, 91, 91);
+}

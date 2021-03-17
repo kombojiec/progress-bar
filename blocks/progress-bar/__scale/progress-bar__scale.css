@@ -1,0 +1,6 @@
+.progress-bar__scale{
+    border: 1px solid red;
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 1rem;
+}
