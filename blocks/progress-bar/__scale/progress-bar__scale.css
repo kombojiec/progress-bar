@@ -1,4 +1,5 @@
 .progress-bar__scale{
+    margin-bottom: 1rem;
     border: 1px solid red;
     border-radius: 0.5rem;
     width: 100%;

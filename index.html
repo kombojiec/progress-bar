@@ -11,18 +11,19 @@
     <section class="section">
         <h1 class="section__title">Progress bar</h1>
         <form action="" class="progress-form">
-            <h2 class="progress-form__title">Введите значение от 0 до 100</h2>
+            <h2 class="progress-form__title">Введите значение от 1 до 100</h2>
             <div class="progress-form__active">
-                <input type="number" name="number" class="progress-form__input" placeholder="0 - 100" min="0" max="100" value="0">
+                <input type="number" name="number" class="progress-form__input" placeholder="1 - 100" min="1" max="100" value="0">
                 <button type="submit" class="progress-form__button">Загрузить</button>
             </div>
         </form>
 
         <div class="progress-bar">
-            <span class="progress-bar__value">30%</span>
+            <span class="progress-bar__value"></span>
             <div class="progress-bar__scale">
                 <div class="progress-bar__active"></div>
             </div>
+            <span class="progress-bar__result"></span>
         </div>
     </section>
 </body>

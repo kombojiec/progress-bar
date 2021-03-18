@@ -4,6 +4,7 @@ const form = document.querySelector('.progress-form');
 const button = document.querySelector('.progress-form__button');
 const progressBar = document.querySelector('.progress-bar__active');
 const progressValue = document.querySelector('.progress-bar__value');
+const result = document.querySelector('.progress-bar__result');
 
 function getValue(){
     return form.number.value;
@@ -21,7 +22,14 @@ function setProgressValue(event){
             --progress;
         }
         progressBar.style.width = progress +'%'; 
-        progressValue.textContent = `${progress}%`  
+        progressValue.textContent = `${progress}%`;
+        if(progress == value){
+            result.textContent = 'Completed';
+        }else if(progress >= 1){
+            result.textContent = 'Loading...';
+        }else{
+            result.textContent = '';
+        }
     }
 }
 
